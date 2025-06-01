@@ -331,13 +331,7 @@ model = Sequential()
 # add layers
 
 model.add(Conv1D(filters=filters_param, kernel_size=kernel_size_param, activation='swish', padding='same',input_shape=(ts_len, 1),kernel_initializer = initializer_param))
-model.add(BatchNormalization())
 
-model.add(Dropout(dropout_percent))
-model.add(MaxPooling1D(pool_size=pool_size_param))
-
-model.add(Conv1D(filters=64, kernel_size=12, activation='swish', padding='same', kernel_initializer=initializer_param))
-model.add(BatchNormalization())
 model.add(Dropout(dropout_percent))
 model.add(MaxPooling1D(pool_size=2))
 
