@@ -1,5 +1,5 @@
 # ews_classification_investigation
-This repository contains the code used for the master thesis "Investigation on EWS detection and classification through Deep Neural Networks" undertook by Adrien Guidat under the supervision of E. Massart at EPL, UCLouvain.
+This repository contains the code used for the master thesis "Investigation on EWS detection and classification through Deep Neural Networks" undertook by Adrien Guidat under the supervision of E. Massart and P. Absil at EPL, UCLouvain.
 It is heavily based on the code developed by Bury et al. for their article "Thomas M. Bury. Deep learning for early warning signals of tipping points. PNAS, 118(39),(2021)". Their code is available at : https://github.com/ThomasMBury/deep-early-warnings-pnas .
 
 
