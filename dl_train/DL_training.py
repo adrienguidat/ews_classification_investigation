@@ -315,15 +315,15 @@ start_time = time.time()
 CNN_layers = 1
 LSTM_layers = 1
 pool_size_param = 2 
-learning_rate_param = 0.0001 #0.0005    
-batch_param =5000 #250000
+learning_rate_param = 0.0005 #0.0001    
+batch_param =1000 #5000
 dropout_percent = 0.10 #0.1
-filters_param = 128 #50  
-mem_cells = 128 #128  
-mem_cells2 = 128 #64
-kernel_size_param = 6 #12 
-epoch_param = 1000 #1500 
-initializer_param = 'lecun_normal' #'glorot_uniform' #'lecun_normal'
+filters_param = 50 #50  
+mem_cells = 50 #128  
+mem_cells2 = 10 #64
+kernel_size_param = 12 #6 
+epoch_param = 1500 #1000 
+initializer_param = 'lecun_normal' #'glorot_uniform' 
 
 
 model = Sequential()
